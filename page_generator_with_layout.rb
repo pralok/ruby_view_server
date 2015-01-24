@@ -1,6 +1,5 @@
 require 'erb'
 
-
 def process_erb(string)
   template = ERB.new string
   return template.result(binding)
